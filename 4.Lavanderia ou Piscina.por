@@ -1,6 +1,6 @@
 programa {
   funcao inicio() {
-     // ExercÌcio 4 - USO DA PISCINA OU LAVANDERIA
+     // Exerc√≠cio 4 - USO DA PISCINA OU LAVANDERIA
    caracter letra  
    cadeia   estaAcompanhado, exame
    inteiro  idade
@@ -10,7 +10,7 @@ programa {
    leia(letra)
    escolha (letra){
     caso 'L':
-    escreva("VocÍ escolheu Lavanderia.\n")
+    escreva("Voc√™ escolheu Lavanderia.\n")
     escreva("Quantos Kg de roupa deseja lavar?: ")
     leia(qtdroupa_kg)
     se (qtdroupa_kg >= 10)
@@ -26,33 +26,33 @@ programa {
     
     caso 'P':
 
-    escreva("VocÍ escolheu Piscina.")
+    escreva("Voc√™ escolheu Piscina.")
     escreva("\nQual sua Idade?: ")
     leia(idade)
-    escreva("VocÍ est· acompanhado? Digite Sim ou N„o: ") 
+    escreva("Voc√™ est√° acompanhado? Digite Sim ou N√£o: ") 
     leia(estaAcompanhado) 
-    escreva("Seu Exame est· em dia? Digite Sim ou N„o: ")
+    escreva("Seu Exame est√° em dia? Digite Sim ou N√£o: ")
     leia(exame)
 
     se(idade >= 18 e estaAcompanhado == "sim" e exame == "sim"){
     escreva("Maravilha! Acesso liberado, aproveite a Piscina.")
-    }senao se(idade >= 18 e estaAcompanhado == "sim" e exame == "n„o"){
-    escreva("Acesso Negado! Por favor, faÁa seu exame.")
-    }senao se(idade >= 18 e estaAcompanhado == "n„o" e exame == "n„o"){
-    escreva("Acesso Negado! Por favor, faÁa seu exame.")
+    }senao se(idade >= 18 e estaAcompanhado == "sim" e exame == "n√£o"){
+    escreva("Acesso Negado! Por favor, fa√ßa seu exame.")
+    }senao se(idade >= 18 e estaAcompanhado == "n√£o" e exame == "n√£o"){
+    escreva("Acesso Negado! Por favor, fa√ßa seu exame.")
     }senao se(idade < 18 e estaAcompanhado == "sim" e exame == "sim"){ 
     escreva("Maravilha! Acesso liberado, aproveite a Piscina.")
-   }senao se(idade < 18 e estaAcompanhado == "n„o" e exame == "sim"){
+   }senao se(idade < 18 e estaAcompanhado == "n√£o" e exame == "sim"){
     escreva("Acesso Negado! Por favor, providencie um acompanhante maior de idade.")
-   }senao se(idade < 18 e estaAcompanhado == "sim" e exame == "n„o"){
-    escreva("Acesso Negado! Por favor, faÁa seu exame.")
-   }senao se(idade < 18 e estaAcompanhado == "n„o" e exame == "n„o"){
-    escreva("Acesso Negado! Por favor, providencie um acompanhante maior de idade e faÁa seu exame.")
+   }senao se(idade < 18 e estaAcompanhado == "sim" e exame == "n√£o"){
+    escreva("Acesso Negado! Por favor, fa√ßa seu exame.")
+   }senao se(idade < 18 e estaAcompanhado == "n√£o" e exame == "n√£o"){
+    escreva("Acesso Negado! Por favor, providencie um acompanhante maior de idade e fa√ßa seu exame.")
     
    }
    pare
    caso contrario:
-   escreva("Letra Inv·lida")
+   escreva("Letra Inv√°lida")
    }
    }
    }
