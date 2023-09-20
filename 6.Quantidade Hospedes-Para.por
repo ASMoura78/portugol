@@ -1,21 +1,21 @@
 programa {
   funcao inicio() {
-      // Exercí­cio 2 - Quantidade de Hóspedes
+      // ExercÃ­Â­cio 2 - Quantidade de HÃ³spedes
       inteiro numero, qtd_hospede, num_Quarto, cont = 0 
       real    val_Total = 0.0, val_Diaria, maior_Diaria = 0.0, menor_Diaria = 0.0  
       caracter continuar
   
       escreva("------SEJA BEM VINDO AO HOTEL MUNDO TI------")
-      escreva("\nDigite a Quantidade de Hóspedes: ")
+      escreva("\nDigite a Quantidade de HÃ³spedes: ")
       leia(qtd_hospede)
 
       para(inteiro i = 1; i <= qtd_hospede; i++)
       {
-         escreva("Digite o nº do Quarto: ")
+         escreva("Digite o nÂº do Quarto: ")
          leia(num_Quarto)
-         escreva("Digite o Valor da Diária: R$ ")
+         escreva("Digite o Valor da DiÃ¡ria: R$ ")
          leia(val_Diaria)  
-        escreva("Quarto nº ", num_Quarto, " Valor Diária R$ ", val_Diaria)
+        escreva("Quarto nÂº ", num_Quarto, " Valor DiÃ¡ria R$ ", val_Diaria)
         escreva("\n")
 
        val_Total = val_Total + val_Diaria
@@ -37,9 +37,9 @@ programa {
    }
    
    }
-   escreva("\nValor Total das Diárias: R$ ", val_Total)
-   escreva("\nValor da maior diária é: R$ ", maior_Diaria)
-   escreva("\nValor da menor diária é: R$ ", menor_Diaria)
+   escreva("\nValor Total das DiÃ¡rias: R$ ", val_Total)
+   escreva("\nValor da maior diÃ¡ria Ã©: R$ ", maior_Diaria)
+   escreva("\nValor da menor diÃ¡ria Ã©: R$ ", menor_Diaria)
      
            
   }
